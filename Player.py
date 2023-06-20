@@ -13,11 +13,11 @@ class Player(Sprite):
         for event in events:
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_a:
-                    self.x = self.screen.get_width()*(0.2)
+                    self.x = self.screen.get_width()*(0.175)
                 if event.key == pygame.K_s:
                     self.x = self.screen.get_width()*(0.5)
                 if event.key == pygame.K_d:
-                    self.x = self.screen.get_width()*(0.8)
+                    self.x = self.screen.get_width()*(0.825)
 
     # Draw the player on the screen.
     def draw(self):
